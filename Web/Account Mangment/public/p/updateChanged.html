@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/roboarmlogo.png">
+    <title>Update Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EFEFEF;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #FFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-out;
+            position: relative;
+        }
+
+        .container img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #4D4D4D;
+            margin-bottom: 20px;
+            animation: slideInDown 0.5s ease-out;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 10px;
+            animation: slideInUp 0.5s ease-out;
+        }
+
+        #p {
+            color: #3186A0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        #p:hover {
+            color: #0056b3;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-50%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../images/roboarmlogo.png" alt="roboarmlogo">
+        <h1>Updated Successfully!</h1>
+        <p>Your update has done uccessfully</p>
+        <p id="p">Please close this window and return to the app to login</p>
+    </div>
+</body>
+
+</html>
