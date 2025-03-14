@@ -90,6 +90,10 @@ This project was completed as part of our graduation requirements under the supe
 
 We express our deepest gratitude for their guidance and support.
 
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
 ## References
 
 Detailed project documentation and references can be found in the appendices and the main project report.
